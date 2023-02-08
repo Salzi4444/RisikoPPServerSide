@@ -1,0 +1,13 @@
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\RisikoPPClient.exe.config
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\RisikoPPClient.exe
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\RisikoPPClient.pdb
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\csharpNetwork.dll
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\csharpNetwork.pdb
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\csharpNetwork.xml
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\bin\Debug\csharpNetwork.dll.config
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.csproj.AssemblyReference.cache
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.csproj.SuggestedBindingRedirects.cache
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.csproj.CoreCompileInputs.cache
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.csproj.CopyComplete
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.exe
+D:\Schule\3.Klasse\SWP\risiko-pp\RisikoPPClient\RisikoPPClient\obj\Debug\RisikoPPClient.pdb
