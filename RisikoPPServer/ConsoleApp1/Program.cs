@@ -18,22 +18,6 @@ namespace ConsoleApp1
             Client.MessageReceived += MessageReceived;
             Client.NewClientConnected += NewClientConnected;
             Client.ClientDisconnected += ClientDisconnected;
-
-            string input;
-
-            while ((input = Console.ReadLine()) != "quit")
-            {
-                MessageCreator cr = new MessageCreator(0);
-                cr.AddString(input);
-                byte[] bytes = cr.getBytes();
-
-                foreach (KeyValuePair<int, Client> item in Server.clients)
-                {
-                    item.Value.Send(bytes);
-                }
-            }
-
-            Server.Stop();
         }
 
         private static void ClientDisconnected(object sender, ClientDisconnectedEventArgs e)
@@ -49,8 +33,13 @@ namespace ConsoleApp1
         private static void MessageReceived(object sender, MessageReceivedEventArgs e)
         {
             string data = new MessageEncoder(e.message).GetString();
+            MessageCreator creator = new MessageCreator(0);
+            creator.AddString(data);
 
-            Console.WriteLine(data);
+            foreach (KeyValuePair<int, Client> item in Server.clients)
+            {
+                item.Value.Send(creator.getBytes());
+            }
         }
 
         static void StartServer()
