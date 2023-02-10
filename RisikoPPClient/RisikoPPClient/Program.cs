@@ -34,7 +34,7 @@ namespace RisikoPPClient
 
         static void SetupClient()
         {
-            Client.Connect(new System.Net.IPEndPoint(IPAddress.Parse("127.0.0.1"), 44444));
+            Client.Connect("risikopp.salzi.org", 80);
             Ticker.Start(10);
             Ticker.Tick += Client.Tick;
         }
